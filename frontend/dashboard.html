@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>Task Dashboard</h2>
+
+  <div>
+    <input id="title" placeholder="Task title">
+    <input id="description" placeholder="Description">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <h3>Tasks:</h3>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+  <script>
+    loadTasks();
+  </script>
+
+</body>
+
+</html>
